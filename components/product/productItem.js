@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { DataContext } from '../../store/GlobalState';
 import { addToCart } from '../../store/Actions';
 
-const ProductItem = ({ product, handleCheck }) => {
+const productItem = ({ product, handleCheck }) => {
     const { state, dispatch } = useContext(DataContext);
     const { cart, auth } = state;
 
@@ -77,4 +77,4 @@ const ProductItem = ({ product, handleCheck }) => {
     )
 }
 
-export default ProductItem;
+export default productItem;
