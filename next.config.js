@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    "BASE_URL": "http://localhost:3000",
+    "BASE_URL": "https://one-stop.vercel.app/",
     "MONGODB_URL": "mongodb+srv://ifte:1234@cluster0.zc5f7.mongodb.net/oneStop?retryWrites=true&w=majority",
     "ACCESS_TOKEN_SECRET": "123456",
     "REFRESH_TOKEN_SECRET": "jngdfnxnvuhkjs44hjsgfhsb",
